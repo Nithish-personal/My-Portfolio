@@ -118,6 +118,15 @@ body {
     -webkit-backdrop-filter: blur( 15px );
     border-radius: 10px;
 
+    &--text{
+        padding-top: 20px;
+        text-align: center;
+
+        span{
+            color:#E700F6;
+        }
+    }
+
     &--contact{
         margin:0 auto;
         padding-top: 20px;

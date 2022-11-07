@@ -112,6 +112,13 @@ body {
   -webkit-backdrop-filter: blur(15px);
   border-radius: 10px;
 }
+.footer--container--text {
+  padding-top: 20px;
+  text-align: center;
+}
+.footer--container--text span {
+  color: #E700F6;
+}
 .footer--container--contact {
   margin: 0 auto;
   padding-top: 20px;
