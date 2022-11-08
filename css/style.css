@@ -192,5 +192,16 @@ body {
     background: transparent;
   }
 }
+.second--container {
+  color: #fff;
+  text-align: center;
+}
+.second--container .sub--container {
+  color: #E700F6;
+}
+.second--container .content--container .text--container {
+  text-align: center;
+  padding: 3% 28%;
+}
 
 /*# sourceMappingURL=style.css.map */
