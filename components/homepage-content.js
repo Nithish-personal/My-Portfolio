@@ -9,28 +9,22 @@ export default function homepageContent(){
                 <Image src={require('../public/static/images/graphic.jpg')}/>
             </div>
             <div className="text--container">
-                <h1>Hello!<span class="wave">👋🏾</span></h1>
+                <h1>Hello!<span className="wave">👋🏾</span></h1>
                 <h1 className='sub--container'>Myself Nithish</h1>
                 <Sample/>            
             </div>        
         </div>
         <div className='second--container'>
             <div className='header--container'>
-                <p className='header1'>LET ME <span className='sub--container'>INTRODUCE</span> MYSELF</p>
+                <p className='header1'>LET ME <span className='sub--container'>BRIEF</span> MYSELF</p>
             </div>
             <div className='content--container'>
                 <div className='img--container'>
                     <Image src={require('../public/static/images/avatar.svg')}/>
                 </div>
                 <div className='text--container'>
-                    <p className='header5'>I did my schooling in TVS MATRICULATION Higher secondary school MADURAI, TN.
-                        And my UG IN KLN College
-                        From my 6th standard of school i was curious to design an website on my own so the very first tag that made me to fell in love with web development is 
-                        &lt;marquee&gt;
-                        tag.
-                        I am very much interested in designing and developing in responsive web applications . 
-                        Very fluent with classics like Javascript,python.
-                        Had some hands on in databricks and spark architecture in data engineering 
+                    <p className='header5'>Front end developer with 2 years of experience in working with  HTML5, CSS3, JavaScript  and its modern ES6+ syntax and features to deliver exceptional client experience.
+Highly proficient with Vue.js framework and including Vuex, Vue Router, and Nuxt.js.Understanding of server-side rendering and functional programming .Proficiency with version control platform like GitHub and detect management tools like JIRA.
                     </p>               
                 </div>
             </div>

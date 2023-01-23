@@ -74,9 +74,6 @@ body {
 .header-container .logo--container p {
   margin: 0;
 }
-.header-container .logo--container--logo {
-  color: #fff;
-}
 .header-container .btn--container ul {
   display: flex;
   padding: 20px;
@@ -202,6 +199,179 @@ body {
 .second--container .content--container .text--container {
   text-align: center;
   padding: 3% 28%;
+}
+
+.header-right {
+  margin: 20px 0;
+  border-bottom: #e155d9 1px solid;
+  text-align: right;
+}
+.header-center {
+  margin: 20px 0;
+  border-bottom: #e155d9 1px solid;
+  text-align: center;
+}
+.header-left {
+  margin: 20px 0;
+  border-bottom: #e155d9 1px solid;
+  text-align: left;
+}
+
+.para-justify {
+  text-align: justify;
+}
+
+.text--pink {
+  color: #e155d9;
+}
+.text--litepink {
+  color: #efaaea;
+}
+
+.about-container {
+  color: #fff;
+  margin: 20px auto;
+  width: 70vw;
+}
+.about-container li {
+  text-align: justify;
+  list-style-type: none;
+}
+.about-container .content--container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.about-container .content--container .text--container {
+  width: 50%;
+  height: 100%;
+  color: #fff;
+}
+.about-container .content--container .img--container {
+  width: 25%;
+}
+.about-container .content--container .img--container img {
+  box-shadow: 5px 5px 9px -3px rgb(255, 255, 255);
+  width: 100%;
+  height: 100%;
+}
+
+.techskill-container {
+  color: #fff;
+  margin: 20px auto;
+  width: 70vw;
+}
+.techskill-container li {
+  text-align: justify;
+}
+.techskill-container li div {
+  display: inline-flex;
+}
+.techskill-container .bar--tile, .techskill-container .bar {
+  flex: 1;
+}
+.techskill-container .bar {
+  font-size: small;
+  margin: 0 auto;
+  width: 50%;
+  background-color: #ccc;
+  height: 22px;
+  border: 2px solid red;
+  border-radius: 25px;
+}
+.techskill-container .percentage--10 {
+  text-align: center;
+  background-color: rgb(165, 11, 241);
+  display: inline-block;
+  border-radius: 25px;
+  width: 10%;
+}
+.techskill-container .percentage--20 {
+  text-align: center;
+  background-color: rgb(165, 11, 241);
+  display: inline-block;
+  border-radius: 25px;
+  width: 20%;
+}
+.techskill-container .percentage--30 {
+  text-align: center;
+  background-color: rgb(165, 11, 241);
+  display: inline-block;
+  border-radius: 25px;
+  width: 30%;
+}
+.techskill-container .percentage--40 {
+  text-align: center;
+  background-color: rgb(165, 11, 241);
+  display: inline-block;
+  border-radius: 25px;
+  width: 40%;
+}
+.techskill-container .percentage--50 {
+  text-align: center;
+  background-color: rgb(165, 11, 241);
+  display: inline-block;
+  border-radius: 25px;
+  width: 50%;
+}
+.techskill-container .percentage--60 {
+  text-align: center;
+  background-color: rgb(165, 11, 241);
+  display: inline-block;
+  border-radius: 25px;
+  width: 60%;
+}
+.techskill-container .percentage--70 {
+  text-align: center;
+  background-color: rgb(165, 11, 241);
+  display: inline-block;
+  border-radius: 25px;
+  width: 70%;
+}
+.techskill-container .percentage--80 {
+  text-align: center;
+  background-color: rgb(165, 11, 241);
+  display: inline-block;
+  border-radius: 25px;
+  width: 80%;
+}
+.techskill-container .percentage--90 {
+  text-align: center;
+  background-color: rgb(165, 11, 241);
+  display: inline-block;
+  border-radius: 25px;
+  width: 90%;
+}
+.techskill-container .percentage--100 {
+  text-align: center;
+  background-color: rgb(165, 11, 241);
+  display: inline-block;
+  border-radius: 25px;
+  width: 100%;
+}
+.techskill-container .bar--container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+.techskill-container .fundamental--container {
+  background: rgba(255, 255, 255, 0.29);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.techskill-container .fundamental--container .tags {
+  background-color: #210334;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 16px;
 }
 
 /*# sourceMappingURL=style.css.map */
